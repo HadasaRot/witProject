@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c661a50b-0c0a-43df-b239-46ebc99f6134" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/witProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modeles/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modeles/handling_files_and_folders.py" afterDir="false" />
-    </list>
+    <list default="true" id="c661a50b-0c0a-43df-b239-46ebc99f6134" name="Changes" comment="create module: handling_files_and_folders" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +55,15 @@
       <option name="presentableId" value="Default" />
       <updated>1735053432420</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="create module: handling_files_and_folders">
+      <option name="closed" value="true" />
+      <created>1735060119928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735060119928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create module: handling_files_and_folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="create module: handling_files_and_folders" />
   </component>
 </project>
