@@ -42,7 +42,7 @@ def copy_file(source_path,destination_path):
 
 
 # create_folder("3",r"C:\לימודים שנה ב\Python\test")
-# create_file("f2.html",r"C:\לימודים שנה ב\Python\test\1")
-# write_file(r"C:\לימודים שנה ב\Python\test\1\f1.html","<h1>hadasa</h1>")
+# create_file("f2.html",r"C:\לימודים שנה ב\Python\test\.wit\Staging Area")
+write_file(r"C:\לימודים שנה ב\Python\test\f1.html","<h1>hadasa</h1>")
 # print(read_file(r"C:\לימודים שנה ב\Python\test\1\f1.html"))
 # copy_file(r"C:\לימודים שנה ב\Python\test\1\f6.html",r"C:\לימודים שנה ב\Python\test\1\f2.html")
