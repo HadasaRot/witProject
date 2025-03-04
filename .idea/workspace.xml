@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c661a50b-0c0a-43df-b239-46ebc99f6134" name="Changes" comment="create module: handling_files_and_folders">
+    <list default="true" id="c661a50b-0c0a-43df-b239-46ebc99f6134" name="Changes" comment="finish Repository-class">
+      <change afterPath="$PROJECT_DIR$/CommandLine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wit.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/witProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/witProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Commit.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Commit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Repository.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modeles/handling_files_and_folders.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeles/handling_files_and_folders.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,41 +29,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "HadasaRot"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HadasaRot&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HadasaRot/witProject.git",
-    "accountId": "2102516f-6401-4042-9721-d2bfab74c948"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HadasaRot/witProject.git&quot;,
+    &quot;accountId&quot;: &quot;2102516f-6401-4042-9721-d2bfab74c948&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2qfV5IPQRFpB9O8v7iYqvBWWvxT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Commit.executor": "Run",
-    "Python.gpt.executor": "Run",
-    "Python.gtp.executor": "Run",
-    "Python.handling_files_and_folders.executor": "Run",
-    "Python.repository (2).executor": "Run",
-    "Python.repository.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Cli.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CommandLine (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.CommandLine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Commit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Repository.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cli.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gpt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gtp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handling_files_and_folders.executor&quot;: &quot;Run&quot;,
+    &quot;Python.just.executor&quot;: &quot;Run&quot;,
+    &quot;Python.repository (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.repository.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.repository (2)">
-    <configuration name="repository (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\לימודים שנה ב\Python\witProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Repository">
+    <configuration name="CommandLine (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="witProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/repository.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CommandLine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="repository" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandLine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="witProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +110,51 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/repository.py" />
+      <option name="SCRIPT_NAME" value="C:\לימודים שנה ב\Python\witProject\CommandLine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Repository" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="witProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\לימודים שנה ב\Python\witProject\classes\Repository.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Repository" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="witProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\לימודים שנה ב\Python\witProject\classes\Repository.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,8 +165,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.repository (2)" />
-        <item itemvalue="Python.repository" />
+        <item itemvalue="Python.Repository" />
+        <item itemvalue="Python.CommandLine (1)" />
+        <item itemvalue="Python.CommandLine" />
+        <item itemvalue="Python.Repository" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +252,31 @@
       <option name="project" value="LOCAL‎" />
       <updated>1735073244044</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎-00009" summary="finish Repository-class">
+      <option name="closed" value="true" />
+      <created>1735409390267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735409390267</updated>
+    </task>
+    <task id="LOCAL‎-00010" summary="finish Repository-class">
+      <option name="closed" value="true" />
+      <created>1735409414487</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735409414487</updated>
+    </task>
+    <task id="LOCAL‎-00011" summary="finish Repository-class">
+      <option name="closed" value="true" />
+      <created>1735409492499</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735409492499</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,17 +292,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create module: handling_files_and_folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="create module: handling_files_and_folders" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/classes/repository.py</url>
-          <line>141</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="finish Repository-class" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish Repository-class" />
   </component>
 </project>

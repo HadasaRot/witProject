@@ -2,6 +2,7 @@ import os
 from operator import truediv
 from os.path import exists
 import shutil
+import ctypes
 
 
 def create_folder(folder_name,path):
@@ -11,6 +12,8 @@ def create_folder(folder_name,path):
     if os.path.isdir(new_path):
         raise FileExistsError("folder already exists")
     os.mkdir(new_path)
+    FILE_ATTRIBUTE_HIDDEN = 0x02
+    ctypes.windll.kernel32.SetFileAttributesW(new_path, FILE_ATTRIBUTE_HIDDEN)
 
 
 #דורס את התיקיה במידה וקים באותו שם
@@ -21,7 +24,7 @@ def create_file(file_name,path):
     file = open(new_path,"w")
     file.close()
 
-#מוסיפה קטסט לקובץ ולא דורסת את מה שהיה
+#מוסיפה טקסט לקובץ ולא דורסת את מה שהיה
 def write_file(path,text):
     if not exists(path):
         raise FileNotFoundError("path not found")
@@ -39,8 +42,10 @@ def read_file(path):
 def copy_file(source_path,destination_path):
     shutil.copyfile(source_path,destination_path)
 
+
 def copy_folder(source_path,destination_path):
     shutil.copytree(source_path,destination_path)
+
 
 def find_last_created_folder(directory):
     folders = [f for f in os.listdir(directory) if os.path.isdir(os.path.join(directory, f))]
@@ -71,10 +76,12 @@ def emptying_folder (path):
         except:
             print("Folder doesn't exist")
 
+
 def folder_is_empty(path):
     if not os.listdir(path):
         return True
     return  False
+
 
 def read_names_files_in_folder(path):
     data = []
@@ -103,20 +110,8 @@ def copy_files_without_param(source_dir, destination_dir,param):
            os.remove(target_item)
     for item in os.listdir(source_dir):
         source_item = os.path.join(source_dir, item)
-        print(source_item)
         new_path = os.path.join(destination_dir,item)
         copy_file(source_item,new_path)
 
 
 
-
-# copy_files_without_param(r"C:\לימודים שנה ב\Python\test\source",r"C:\לימודים שנה ב\Python\test\dist-",".wit")
-
-# create_file("f2.html",r"C:\לימודים שנה ב\Python\test\.wit\Staging Area")
-# write_file(r"C:\לימודים שנה ב\Python\test\f1.html","<h1>hadasa</h1>")
-# print(read_file(r"C:\לימודים שנה ב\Python\test\1\f1.html"))
-# copy_file(r"C:\לימודים שנה ב\Python\test\1\f6.html",r"C:\לימודים שנה ב\Python\test")
-# emptying_folder(r"C:\לימודים שנה ב\Python\test\.wit\commits\commit2")
-# print(folder_is_empty(r"C:\לימודים שנה ב\Python\test\2"))
-# read_names_files_in_folder(r"C:\לימודים שנה ב\Python\test\.wit")
-# print(is_file_modified_after(r"C:\לימודים שנה ב\Python\test\1",r"C:\לימודים שנה ב\Python\test"))

@@ -5,8 +5,10 @@ class Commit:
         # self.file_name = file_name
         self.message = message
 
+
     def __str__(self):
         return f"date: {self.date},user_name: {self.user_name},file_name:{self.file_name},message:{self.message}"
+
 
     def to_dict(self):
         return {
